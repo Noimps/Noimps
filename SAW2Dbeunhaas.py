@@ -226,7 +226,7 @@ def saw2d(n):
             keuze = []
             stappen.append(stap)
             i += 1 
-    print(len(stappen))
+    
     return x, y
 
 
