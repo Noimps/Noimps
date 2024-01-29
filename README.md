@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Nemo ter Bogt
 - 👀 I’m interested in Artificial Intelligence, consciousness, language and music
-- 🌱 I’m currently learning C##, python and did some HTML
+- 🌱 I’m currently a C# and python developer and did some HTML
 - 💞️ I’m looking to collaborate creating a better future
 - 📫 How to reach me nemoterbogt@gmail.com
 - Ask me to see my other projects!
