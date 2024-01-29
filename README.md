@@ -5,7 +5,7 @@
 - 📫 How to reach me nemoterbogt@gmail.com
 - Ask me to see my other projects!
 
--This is my first uploaded project. The project consists of a number of Random- and Self Avoiding Walks inspired by other RW alghoritms. 
+
 - The SAW's work except for the "tamelijkWerkendeSAW.py". as this is and example of what went wrong while creating this alghoritm.
 <!---
 Noimps/Noimps is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
