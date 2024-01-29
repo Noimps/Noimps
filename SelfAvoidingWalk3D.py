@@ -25,15 +25,15 @@ def check(positie): # controle van de bezochte posities
 
 
 def rw3d(n):
-    stappen = range(n) #0 tot n stappen
-    positie = (0, 0, 0) # begin positie
-    bezocht = []    #bijhouden welke stappen gezet zijn
-    
+        stappen = range(n)                                                                                      # er worden n stappen gezet
+    positie = (0, 0, 0)                                                                                        # de eerste bezochte positie
+    bezocht = []                                                                                               # houd bij welke posities er bezocht zijn 
     for _ in stappen:
-        bezocht.append(positie)
-        volgende_posities = check(positie)
-        niet_bezochte_vps = [richtingen for richtingen in volgende_posities if richtingen not in bezocht]
-        positie = random.choice(niet_bezochte_vps)
+        bezocht.append(positie)                                                                             
+        all_directions = check(positie)                                                                     # er word bekeken wat de uitkomsten van stappen in iedere richting zijn
+        not_visited_directions = [direction for direction in all_directions if direction not in bezocht]    # deze uitkomsten worden vergeleken met de al bezochte posities, de niet bezochte uitkomsten worden als stap optie opgeslagen
+        positie = random.choice(not_visited_directions)                                                     # Er word willekeurig uit de stappen met niet bezochte uitkomsten gekozen
+
 
     x_cord, y_cord, z_cord = zip(*bezocht)
     return x_cord, y_cord, z_cord  
